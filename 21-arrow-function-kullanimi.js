@@ -1,3 +1,6 @@
+// bir parametre ve bir dönüş varsa süslü paranteze veya normal paranteze gerek yok.
+// birden fazla parametre varsa parantez, birden fazla dönüş işlemi varsa süslü parantez..
+
 function hello(firstName){
     console.log(`Merhaba ${firstName}`)
 }
