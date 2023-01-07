@@ -13,6 +13,12 @@
         color: red;
       }
     </style>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD"
+      crossorigin="anonymous"
+    />
   </head>
   <body>
     <h1 id="greeting">Kodluyoruz - Front End 101</h1>
@@ -36,14 +42,31 @@
     <!-- 15-16 Kosullarla Calismak -->
     <h2 id="info"></h2>
 
-    <!-- 23 js bolum sonu egzersizi -->
+    <!-- 23 js bolum sonu egzersizi 
     <h3 id="counter">100</h3>
     <button id="increase">Arttir</button>
     <button id="decrease">Azalt</button>
+    -->
+
+    <div class="container mt-5">
+      <div class="row">
+        <div class="col-sm-8 offset-sm-2">
+          <form id="userForm">
+            <input type="number" name="score" id="score" />
+            <button type="submit" class="btn btn-success">Gonder</button>
+          </form>
+        </div>
+      </div>
+    </div>
 
     <!-- <script>
       console.log("Hello World");
     </script> -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+      crossorigin="anonymous"
+    ></script>
     <!--<script src="01-hello-world.js"></script> -->
     <!--<script src="02-degisken-tanimlama.js"></script> -->
     <!--<script src="03-degisken-tanimlama.js"></script> -->
@@ -70,5 +93,6 @@
     <!--<script src="24-localStorage-icerisine-veri-eklemek-duzenlemek-ve-silmek.js"></script> -->
     <!--<script src="25-localStorage-icerisinde-farkli-turde-bilgilerin-saklanmasi.js"></script> -->
     <!--<script src="26-localStorage-bolum-sonu-egzerzisi.js"></script> -->
+    <script src="27-form-submit-yonetimi.js"></script>
   </body>
 </html>
