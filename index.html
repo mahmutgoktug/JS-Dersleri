@@ -9,6 +9,7 @@
       .text-primary {
         color: blue;
       }
+
       .text-danger {
         color: red;
       }
@@ -20,7 +21,10 @@
       crossorigin="anonymous"
     />
   </head>
+
   <body>
+    <div id="alert"></div>
+
     <h1 id="greeting">Kodluyoruz - Front End 101</h1>
 
     <!--<h2 id="title">Merhaba Dunya</h2>
@@ -52,10 +56,39 @@
       <div class="row">
         <div class="col-sm-8 offset-sm-2">
           <form id="userForm">
-            <input type="number" name="score" id="score" />
-            <button type="reset" class="btn btn-danger">Sifirla</button>
-            <button type="submit" class="btn btn-success">Gonder</button>
+            <div class="mb-3">
+              <label class="form-label" for="username">Kullanici Adi</label>
+              <input
+                class="form-control"
+                type="text"
+                name="username"
+                id="username"
+              />
+            </div>
+            <div class="mb-3">
+              <label class="form-label" for="score">Not Bilgisi</label>
+              <input
+                class="form-control"
+                type="number"
+                name="score"
+                id="score"
+              />
+            </div>
+            <div class="mb-3">
+              <button type="reset" class="btn btn-danger">Sifirla</button>
+              <button type="submit" class="btn btn-success">Gonder</button>
+            </div>
           </form>
+        </div>
+        <div class="col-sm-8 offset-sm-2 mt-4">
+          <ul class="list-group" id="userList">
+            <!-- <li
+              class="list-group-item d-flex justify-content-between align-items-center"
+            >
+              A list item
+              <span class="badge bg-primary rounded-pill">14</span>
+            </li> -->
+          </ul>
         </div>
       </div>
     </div>
@@ -95,6 +128,7 @@
     <!--<script src="25-localStorage-icerisinde-farkli-turde-bilgilerin-saklanmasi.js"></script> -->
     <!--<script src="26-localStorage-bolum-sonu-egzerzisi.js"></script> -->
     <!--<script src="27-form-submit-yonetimi.js"></script> -->
-    <script src="28-input-icerisindeki-veriyi-almak.js"></script>
+    <!--<script src="28-input-icerisindeki-veriyi-almak.js"></script> -->
+    <script src="29-formlarla-calismak-bolum-sonu-egzersizi.js"></script>
   </body>
 </html>
