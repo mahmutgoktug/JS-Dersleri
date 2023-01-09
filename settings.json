@@ -1,0 +1,8 @@
+{
+    "userName": "fakeUser",
+    "password": 1234,
+    "serverIP": "1127.0.0.1",
+    "serverName": "celikkayaJS.org",
+    "isAuth": true,
+    "IDs": [1, 2, 3, 4, 5]
+}
